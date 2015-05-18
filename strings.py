@@ -103,3 +103,6 @@ def rle_compress(s):
 	if len(rle_compressed) >= len(s):
 		return s
 	return rle_compressed
+# Return the character with the maximum number of occurrences
+def maxOccurrences(s):
+	return max(map(s.count,s))
